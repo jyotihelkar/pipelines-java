@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  {{ pool }}
+  windows-latest
 
 steps:
 - task: Maven@3
